@@ -1,0 +1,17 @@
+[project]
+name = "hibaaa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hibazaheer", email = "hibameo55@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hibaaa = "hibaaa:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
